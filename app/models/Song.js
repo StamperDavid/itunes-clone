@@ -16,11 +16,7 @@ export default class Song {
         <h5 class="card-title">${this.artist}</h5>
         <p class="card-text">${this.collection}</p>
         <p class="card-text">${this.price}</p>
-        <audio controls>
-  <source src="${this.preview}" type="audio/ogg">
-  <source src="${this.preview}" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+      <video controls src="${this.preview}" ></video>
         </div>
         `
     }
