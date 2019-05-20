@@ -1,5 +1,5 @@
 import Song from "../../models/Song.js";
-
+//             baseURL: 'https://swapi.con/api/people'
 
 let _state = {
   songs: []
@@ -36,6 +36,17 @@ class ItunesService {
   }
 }
 
-
+//   getApiCharaceters(){
+//        _api.get('people)
+//            .then(response =>{
+//              let data = response.data
+//                      console.log(data))
+//               .catch(err=)
+//                  console.error(err)
+//}
 
 export default ItunesService
+
+//register subscribers
+//fetch data
+// _chaService.getApiCharacters;

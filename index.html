@@ -6,19 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Music Is Fun!</title>
+
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css'>
 
 </head>
 
 <body>
     <div class="container">
+
+
+        <!--------------------------------this should be my output for my template---------------------------------------->
         <div class="row">
-            <div class="col">
-                <ul id="Template">
-                    <!--SONGS ADDED DYNAMICALLY HERE-->
-
-                </ul>
-
+            <div class="col-4">
                 <form class="form-inline" onsubmit="app.controllers.itunesCtrl.getMusic(event)">
                     <!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
                     <div class="form-group">
@@ -26,13 +25,21 @@
                         <button type="submit" class="btn btn-primary" id="get-music-button">Get Music</button>
                     </div>
                 </form>
+                <ul id="Template">
+
+                    <!--SONGS ADDED DYNAMICALLY HERE-->
+
+
+
+
                 </ul>
             </div>
-
         </div>
+        <!------------------------------------------end of template card--------------------------------------------------->
     </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="module" src="app/main.js"></script>
+    <script src="app/main.js" type="module"></script>
     </div>
 </body>
 
